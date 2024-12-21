@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Roboto:ital,wght@0,300;0,400;1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    /* Background gradient */
+   background-color: #333;
+    height: 10px;; /* Full viewport height */
+    margin: 0;
+    padding: 0;
+}
+
+form .b2{
+    border-radius: 50px;
+    background-color: rgb(220, 69, 69);
+    height: 30px;
+    margin-top: 10px;
+    width: 50px;
+    justify-content: space-between;
+}
+
+  section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  .basic{
+    font-size: 18px;
+    text-align: center;
+  }
+  .main-contect {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+   
+  }
+
+  ::selection {
+    color: #000;
+    background: #fff;
+  }
+
+  .wrapper {
+    width: 370px;
+    padding: 30px;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0px 5px 10px 20px rgba(0, 255, 238, 0.2);
+    color: #000;
+  }
+
+  .wrapper header {
+    font-size: 28px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .wrapper form {
+    margin: 20px 0;
+  }
+
+  form :where(input, select, button) {
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background: #444;
+    color: #fff;
+  }
+
+  form p {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+
+  form input {
+    height: 50px;
+    font-size: 17px;
+    padding: 0 15px;
+    border: 1px solid #c7c1c1;
+    background: #fbf9f9;
+  }
+  form input:focus {
+    padding: 0 14px;
+    border: 2px solid #675afe;
+    background: #555;
+  }
+  form .drop-list {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .drop-list .select-box {
+    display: flex;
+    width: 130px;
+    height: 45px;
+    align-items: center;
+    border-radius: 5px;
+    justify-content: center;
+    border: 1px solid #999;
+    background: #fff;
+    color: #000;
+  }
+  .select-box img {
+    max-width: 21px;
+  }
+  .select-box select {
+    width: auto;
+    font-size: 16px;
+    background: none;
+    margin: 0 -5px 0 5px;
+    color: #000;
+  }
+
+  .select-box select::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  .select-box select::-webkit-scrollbar-track {
+    background: #fff;
+  }
+
+  .select-box select::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 8px;
+    border-right: 2px solid #ffffff;
+  }
+
+
+  .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 22px;
+    margin-top: 25px;
+    color: #000; /* Adjust color as needed */
+    background-color: #cbced4; /* Slightly lighter shade of black */
+    padding: 6px;
+    border-radius: 50%; /* Make the icon circular */
+  }
+
+  
+  .drop-list  {
+    cursor: pointer;
+    margin-top: 30px;
+    font-size: 22px;
+    color: #fff;
+  }
+
+  form .exchange-rate {
+    font-size: 17px;
+    margin: 20px 0 30px;
+  }
+
+  form .b1 {
+    height: 52px;
+    color: #fff;
+    font-size: 17px;
+    cursor: pointer;
+    background: #5a5dea;
+    transition: background 0.3s ease, transform 0.2s ease;
+  }
+
+  form button:hover {
+    background: #333;
+  }
+  form button:active {
+    transform: scale(0.95);
+  }
+
+  .Social-Media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Social-Media i {
+    font-size: 25px;
+    margin: 10px;
+    /* color: #5a5dea; */
+  }
+
+  .Social-Media i:hover {
+    color: #0287c3;
+    font-size: 25px;
+  }
+
+  /* Media Query for Mobile Screens */
+@media (max-width: 600px) {
+    body {
+      background: #fff;
+    }
+  }
